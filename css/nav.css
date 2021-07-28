@@ -1,11 +1,11 @@
 :root{
-    --min-color: #0553fa;
+    --min-color: linear-gradient(180deg, #A4BC46 0%, #85A019 100%);
     --black: #244361;
     --box-shadow: 0 5px 10px rgba(0,0,0,.1);
 }
 
 /* Header Section Starts */
-header{
+.header{
     box-shadow: var(--box-shadow);
     background: #fff;
 }
@@ -48,7 +48,7 @@ header .nav a:hover{
     background: var(--min-color);
     box-shadow: var(--box-shadow);
     color: #fff;
-    opacity: 0.7;
+    /* opacity: 0.7; */
 }
 #menu-bar{
     color: var(--black);

@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+h1, h2 {
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 3px;
+}
+
+p, nav {
+    font-family: roboto, arial, helvetica;
+}
+
+.home {
+    margin-top: 100px;
+    background-image: url(../images/bg-green.png);
+    background-size: cover;
+}
+
+.product {
+    margin-top: 50px;
+}
+
+.about {
+    margin-top: 50px;
+}
+
+.btn {background-image: linear-gradient(to right, #3CA55C 0%, #B5AC49  51%, #3CA55C  100%)}
+.btn {
+    margin: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+    height: 50px;
+    font-size: 16px
+}
+
+.btn:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
+
+.card-product-body p{
+    height: 200px;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+.card-product-body p::-webkit-scrollbar {
+    display: none;
+}
+
+.card-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-image img {
+    height: 300px;
+}
